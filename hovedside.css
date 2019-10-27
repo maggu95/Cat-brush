@@ -1,35 +1,54 @@
 /* hovedside.css*/ 
+/* fonts 
 
+    font-family: 'Space Mono', monospace;
+
+    font-family: 'Montserrat', sans-serif;
+
+*/
 	
 }
 
 body {
 	background-color: white; 
 	
-
 }
 
-.navigasjon1 { 
-text-align: center;
-position: absolute; 
 
-}
-.navigasjon2 {
-	text-align: center;
-	position: relative; 
-}
-.navigasjon3 { 
-	text-align: center; 
-	position: relative;
-
- }
 h1 {
-	font-family: ;
-	font-size: 40px;
+	font-family: 'Space Mono', monospace;
+	font-size: 300%;
 	text-align: center; 
 
 }
-p{
-	font-family: ; 
+
+p {
+	font-family: 'Montserrat', sans-serif; 
 
 }
+
+.flex-container {
+  display: flex;
+  height: auto;
+  align-items: center;
+  background-color: DodgerBlue;
+  width: auto;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+
+}
+
+
+img {
+	height: 20%;
+	width: 20% 
+
+}
+
