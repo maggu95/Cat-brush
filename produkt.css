@@ -1,0 +1,78 @@
+
+.flex-container {
+  display: flex;
+  height: auto;
+  align-items: center;
+  background-color: DodgerBlue;
+  width: auto;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 18px;
+
+}
+
+h1 {
+	font-family: 'Space Mono', sans-serif;
+	font-size: 300%;
+	text-align: center; 
+}
+
+.main { 
+
+	background-color: blue; 
+	width: 75%
+ }
+
+ #produkt {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  padding: 20px; 
+  
+
+}
+#produkt td, #representanter th{
+	border: 1px solid black; 
+	padding: 8px;
+} 
+
+#produkt tr:nth-child(even){
+	background-color: #black:;
+}
+s
+#produkt tr:hover {
+	background-color:black ; 
+}
+#produkt td {
+	padding-bottom: 12px; 
+	padding-top: 12px; 
+	text-align: left;
+    background-color: dodgerblue;
+    color: white;
+
+}
+.Telemark { 
+	border: 5px solid dodgerblue; 
+	padding: 10px, solid black; 
+	margin: 10px, solid black;
+		
+	background-color: ;
+ }
+
+ article {
+ 	background-color: ; 
+ }
+
+#bilde img {
+ 	width: 100%;
+ }
+
+		
+}

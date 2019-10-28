@@ -16,11 +16,16 @@ body {
 
 
 h1 {
-	font-family: 'Space Mono', monospace;
+	font-family: 'Space Mono', sans-serif;
 	font-size: 300%;
 	text-align: center; 
 
 }
+h2 { 
+  font-family: 'Space Mono', monospace; 
+  font-size: 200%; 
+  text-align: left; 
+ }
 
 p {
 	font-family: 'Montserrat', sans-serif; 
@@ -28,7 +33,7 @@ p {
 }
 
 .flex-container {
-  display: flex;
+  display: flex;29
   height: auto;
   align-items: center;
   background-color: DodgerBlue;
