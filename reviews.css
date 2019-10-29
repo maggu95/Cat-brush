@@ -1,0 +1,34 @@
+.flex-container {
+  display: flex;
+  height: auto;
+  align-items: center;
+  background-color: DodgerBlue;
+  width: auto;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 18px;
+
+}
+h1 {
+  font-family: 'Space Mono', sans-serif;
+  font-size: 300%;
+  text-align: center; 
+
+} 
+
+.grid-container {
+  display: grid;
+}
+
+img { 
+float: left;
+height: 300px; 
+width: 400px;
+
+}
