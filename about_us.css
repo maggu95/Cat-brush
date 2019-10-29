@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex-container {
+  display: flex;
+  height: auto;
+  align-items: center;
+  background-color: DodgerBlue;
+  width: auto;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 18px;
+}
+
+img {
+  height: 250px;
+  width: 100%;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.twitter {
+  width: 5%;
+  height: 35px;
+  padding: 5px;
+}
+
+.facebook{
+  width: 5%;
+  height: 35px;
+  padding: 5px;
+}
+
+.gmail {
+  width: 5%;
+  height: 35px;
+  padding: 5px;
+}
+
+.alt {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sluttekst {
+  width: 32%;
+  flex-direction: row;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+strong {
+  font-size: 20px;
+}
+
+.oss {
+  width: 40%;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 60%;
+}
+
+
+footer {
+  background-color: #2b2a26;
+  padding: 10px;
+  text-align: left;
+  color: white;
+
+}

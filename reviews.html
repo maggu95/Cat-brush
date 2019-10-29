@@ -1,36 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Space+Mono:400,700&display=swap" rel="stylesheet"> 
-<link rel="stylesheet" type="text/css" href="reviews.css">
 
 <meta charset="UTF-8">
+<style> 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+ /* background-color: #2196F3;*/
+  padding: 10px;
+}
+.grid-item {
+ /* background-color: rgba(255, 255, 255, 0.8);*/
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+img{ 
+height: 50%; 
+width: 50%; 
+}
+
+.flex-container {
+  display: flex;29
+  height: auto;
+  align-items: center;
+  background-color: DodgerBlue;
+  width: auto;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+
+}
+
+</style>
 <nav>
     <div class="flex-container">
     <div><p><a href="hovedside.html">Home</a></p></div>
     <div><p><a href="about_us.html">Om oss</a></p></div>
     <div><p><a href="produkt.html">Produkter</a></p></div>
-    <div><p><a href="reviews.html">Anmeldelser</a></p></div>  
+      
 </nav>
 <h1> Anmeldelser </h1>
-
-
-<title>anmeldelser</title>
+<title>Test</title>
 </head>
 
 <body>
 <!--Content of the document......-->
-<div>
-	<img src="obama.jpg"><h2> "This product is amazing, Yes cheese can! 10/10" -Obama </h2>
-</div>
+<p> Her er andmeldelser fra andre som har prøvd produktet og er fornøyd!</p>
 
-<br>
 
-<div> 
-	<img src="pitt.jpg"><h2> "I aprove of this cheese grader" -Brad Pitt </h2>
-</div>
+ <div class="grid-container">
+  <div class="grid-item"> <img src="obama.jpg"> <p> "Yes cheese can! -Obama" </p></div>
+  <div class="grid-item"> <img src="drake.jpg"> <p> "Started from the buttom now we cut cheese!" - Drake</p> </div>
 
-<div>
-	<img src="drake.jpg"><h2>"Startet from the buttom now we grate cheese!" -Drake</h2>
+
 </div>
-</body>
+<p> Når Obamas besøk til Norge i 2014 tok sted var det en prioritet for han å gå innom oss i telemark Ostehøvel AS 
+Hvor han ble meget fornøyt med den revolusjonerende måten å spise ost på. Han kjøpte med seg 300stk på vei hjem til USA</p>
+<br> 
+<p> Drake var innom Norge for konsterter. Flere av hans venner hadde vert innom oss, og derfor var han veldig nysgjerrig om hva denne "oste høvelen" var. Han ble meget fornøyd, så fornøyd at denne oplevelsen inspirerte han til å skrive sangen: "Hotline-Bling</p> 
+</body> 
