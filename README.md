@@ -1,4 +1,4 @@
-# Cat-brush
+# Ostehøvel
 Website for selling catbrushes
 
 Nye krav til nettstedet 31.10.2019 
