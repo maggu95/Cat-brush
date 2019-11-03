@@ -10,30 +10,30 @@
 }
 
 body {
-	background-color: white; 
+	background-color: green; 
 	
 }
 
 
 h1 {
-	font-family: 'Space Mono', sans-serif;
+	font-family: 'Jomolhari', sans-serif;
 	font-size: 300%;
 	text-align: center; 
 
 }
 h2 { 
-  font-family: 'Space Mono', monospace; 
+  font-family: 'Jomolhari', monospace; 
   font-size: 200%; 
   text-align: left; 
  }
 
 p {
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Roboto', sans-serif; 
 
 }
 
 .flex-container {
-  display: flex;29
+  display: flex;
   height: auto;
   align-items: center;
   background-color: DodgerBlue;

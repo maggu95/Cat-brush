@@ -16,9 +16,30 @@
   font-size: 18px;
 }
 h1 {
-	font-family: 'Space Mono', sans-serif;
+	font-family: 'Jomolhari', sans-serif;
 	font-size: 300%;
 	text-align: center; 
+}
+
+#skille {
+	border-top: 10px groove dodgerblue;
+	margin: 10px;
+	padding: 10px;
+
+}
+
+h2 { 
+	font-family: 'Jomolhari', sans-serif; 
+	font-size: 200%; 
+	font-weight: bold;
+
+}
+h4 {
+	text-align: center; 
+}
+p {
+	font-family: 'roboto', sans-serif; 
+	font-size: 150%;
 }
 
 .main { 
@@ -33,18 +54,21 @@ h1 {
   width: 100%;
   height: 100%;
   padding: 20px; 
-  
+  margin: 10px;
 
 }
 #produkt td, #representanter th{
 	border: 1px solid black; 
 	padding: 8px;
+	margin: 10px;
+	
+
 } 
 
 #produkt tr:nth-child(even){
-	background-color: #black:;
+	background-color: black;
 }
-s
+
 #produkt tr:hover {
 	background-color:black ; 
 }
@@ -54,23 +78,22 @@ s
 	text-align: left;
     background-color: dodgerblue;
     color: white;
+    margin: 10px;
 
 }
 .Telemark { 
 	border: 5px solid dodgerblue; 
-	padding: 10px, solid black; 
-	margin: 10px, solid black;
-		
-	background-color: ;
+	padding: 10px; 
+	margin: 10px;		
  }
 
- article {
- 	background-color: ; 
- }
 
-#bilde img {
+#bilde {
  	width: 100%;
+ 	height: auto;
+ 	padding: 10px;
+ 	position: relative;
+
  }
 
 		
-}
