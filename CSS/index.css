@@ -26,6 +26,12 @@ h2 {
   font-size: 200%; 
   text-align: left; 
  }
+ #skille {
+  border-top: 10px groove dodgerblue;
+  margin: 10px;
+  padding: 10px;
+
+}
 
 p {
 	font-family: 'Roboto', sans-serif; 

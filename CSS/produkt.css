@@ -20,19 +20,20 @@ h1 {
 	font-size: 300%;
 	text-align: center; 
 }
-
 #skille {
 	border-top: 10px groove dodgerblue;
 	margin: 10px;
 	padding: 10px;
 
 }
-
 h2 { 
 	font-family: 'Jomolhari', sans-serif; 
 	font-size: 200%; 
 	font-weight: bold;
-
+}
+h3 {
+	font-size: 200%; 
+	font-weight: bold;
 }
 h4 {
 	text-align: center; 

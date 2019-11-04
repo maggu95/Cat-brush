@@ -24,7 +24,7 @@ width: 50%;
 }
 
 .flex-container {
-  display: flex;29
+  display: flex;
   height: auto;
   align-items: center;
   background-color: DodgerBlue;
@@ -42,25 +42,25 @@ width: 50%;
 }
 
 </style>
-<nav>
-    <div class="flex-container">
-    <div><p><a href="hovedside.html">Home</a></p></div>
-    <div><p><a href="about_us.html">Om oss</a></p></div>
-    <div><p><a href="produkt.html">Produkter</a></p></div>
-      
-</nav>
-<h1> Anmeldelser </h1>
-<title>Test</title>
+<title> Anmeldelser</title>
 </head>
-
 <body>
-<!--Content of the document......-->
+<div class="container">
+<h4> navigasjon  </h4>
+  <ul class="nav nav-pills nav-justified" role="tablist">
+    <li class="active"><a href="reviews.html">Anmeldelser</a></li>
+    <li><a href="about_us.html">Om oss</a></li>
+    <li><a href="index.html">produkt</a></li>
+    <li><a href="reviews.html">index</a></li>        
+  </ul>
+</div>
+
+<h1> Anmeldelser </h1>
 <p> Her er andmeldelser fra andre som har prøvd produktet og er fornøyd!</p>
 
-
- <div class="grid-container">
-  <div class="grid-item"> <img src="obama.jpg"> <p> "Yes cheese can! -Obama" </p></div>
-  <div class="grid-item"> <img src="drake.jpg"> <p> "Started from the buttom now we cut cheese!" - Drake</p> </div>
+<div class="grid-container">
+<div class="grid-item"> <img src="../images/obama.jpg" alt="obama"> <p> "Yes cheese can! -Obama" </p></div>
+<div class="grid-item"> <img src="../images/drake.jpg" alt="drake"> <p> "Started from the buttom now we cut cheese!" - Drake</p> </div>
 
 
 </div>
