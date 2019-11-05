@@ -1,21 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-}
-.flex-container {
-  display: flex;
-  height: auto;
-  align-items: center;
-  background-color: DodgerBlue;
-  width: auto;
-}
-
-.flex-container > div {
-  background-color: white;
-  width: 25%;
-  margin: 10px;
-  text-align: center;
-  line-height: 10px;
-  font-size: 18px;
+  background-color: pink; 
 }
 
 img {
@@ -25,7 +10,8 @@ img {
 
 section {
   display: -webkit-flex;
-  display: flex;
+  display: grid; /*flex*/
+
 }
 
 .twitter {
@@ -63,9 +49,16 @@ strong {
   font-size: 20px;
 }
 
-.oss {
+/*.oss {
   width: 40%;
-}
+}*/
+.grid-container { 
+  display: grid; 
+  grid-template-columns: auto auto;  
+ }
+ .grid-item {
+  padding: 10px;
+ }
 
 article {
   -webkit-flex: 3;
@@ -74,6 +67,7 @@ article {
   background-color: #f1f1f1;
   padding: 10px;
   width: 60%;
+  float: right;
 }
 
 
