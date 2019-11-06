@@ -24,6 +24,7 @@
   text-align: center; 
   font-family: 'Jomolhari', sans-serif;
   font-size: 150%; 
+  padding-bottom: 20px; 
 
 }
 
@@ -39,3 +40,24 @@ width: 50%;
 h4 {
   text-align: center;
 }
+footer {
+  background-color: #2b2a26;
+  padding: 10px;
+  text-align: left;
+  color: white;
+
+}
+
+.alt {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sluttekst {
+  width: 32%;
+  flex-direction: row;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+

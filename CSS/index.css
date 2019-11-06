@@ -6,8 +6,12 @@
     font-family: 'Montserrat', sans-serif;
 
 */
-	
 
+
+	
+body { 
+    background: url(../images/cream_dust.png) repeat 0 0;
+}
 
 h1 {
 	font-family: 'Jomolhari', sans-serif;
@@ -56,4 +60,28 @@ img {
 	width: 20% 
 
 }
+.mellomrom { 
+  padding-bottom: 20px;
+ }
+
+footer {
+  background-color: #2b2a26;
+  padding: 10px;
+  text-align: left;
+  color: white;
+
+}
+.alt {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sluttekst {
+  width: 32%;
+  flex-direction: row;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
 
