@@ -1,0 +1,56 @@
+ @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Jomolhari|Roboto&display=swap');
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 0px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+.navigasjon {
+    display: grid;
+    grid-template-columns: auto;
+
+}
+.overskrift {/*background-color: blue;*/
+	font-family: 'Jomolhari', monospace; 
+	background-color: lightblue;
+	}
+
+.skjema {
+	background-color: lightblue;
+	padding-bottom: 50px;
+	} 
+
+h1, h2 {
+	text-align: center;
+}
+form { 
+		 }
+.alt {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+footer {
+  background-color: #2b2a26;
+  padding: 10px;
+  text-align: left;
+  color: white;
+  width: 100%;
+
+}
+
+.sluttekst {
+  width: 32%;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+ 
+  
+}   

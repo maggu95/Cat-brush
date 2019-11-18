@@ -1,0 +1,30 @@
+.katalog { 
+	display: grid;
+	grid-template-columns: auto;
+	text-align: center;
+	font-size: 200%;
+	padding-left: 200px;
+	padding-right: 200px;
+	
+	 } 
+
+.blokk {
+    position: relative;
+    }
+.produksjon {
+    width: 100%;
+    height: 550px;
+    }
+    .text_blokk2 {
+    position: absolute;
+    top: 8px;
+    left: 16px;  
+    font-size: 500%;
+    }
+
+@media only screen and (max-width: 600px)  {  
+	.katalog { 
+	padding-left: 10px; 
+	padding-right: 10px;
+	 }
+}
