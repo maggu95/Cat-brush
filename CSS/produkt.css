@@ -1,9 +1,54 @@
+.katalog { 
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+   } 
 
+.Telemark {
+  padding: 20px;
+}
+
+/*
+.sandvin {
+  padding: 100px;
+}
+*/
+
+#sandvin {
+  padding-top: 40px;
+}
+
+
+.blokk {
+    padding-top: 10px;
+    position: relative;
+    }
+.bilde {
+    width: 100%;
+    height: 550px;
+    }
+.text_blokk2 {
+    position: absolute;
+    top: 8px;
+    left: 16px;  
+    font-size: 500%;
+    }
+
+
+@media only screen and (max-width: 600px)  {  
+  .katalog { 
+  padding-left: 10px; 
+  padding-right: 10px;
+   }
+}
 .flex-container {
   display: flex;
   height: auto;
   align-items: center;
-  background-color: DodgerBlue;
+  background-color: dodgerblue;
   width: auto;
 }
 
@@ -15,6 +60,8 @@
   line-height: 10px;
   font-size: 18px;
 }
+
+
 h1 {
 	font-family: 'Jomolhari', sans-serif;
 	font-size: 300%;
@@ -34,6 +81,7 @@ h2 {
 h3 {
 	font-size: 200%; 
 	font-weight: bold;
+  text-align: center;
 }
 h4 {
 	text-align: center; 
@@ -43,50 +91,6 @@ p {
 	font-size: 150%;
 }
 
-.main { 
-
-	background-color: blue; 
-	width: 75%
- }
-
- #produkt {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  height: 100%;
-  padding: 20px; 
-  margin: 10px;
-
-}
-#produkt td, #representanter th{
-	border: 1px solid black; 
-	padding: 8px;
-	margin: 10px;
-	
-
-} 
-
-#produkt tr:nth-child(even){
-	background-color: black;
-}
-
-#produkt tr:hover {
-	background-color:black ; 
-}
-#produkt td {
-	padding-bottom: 12px; 
-	padding-top: 12px; 
-	text-align: left;
-    background-color: dodgerblue;
-    color: white;
-    margin: 10px;
-
-}
-.Telemark { 
-	border: 5px solid dodgerblue; 
-	padding: 10px; 
-	margin: 10px;		
- }
 
 
 #bilde {
@@ -96,28 +100,27 @@ p {
  	position: relative;
 
  }
- footer {
-  background-color: #2b2a26;
-  padding: 10px;
-  text-align: left;
-  color: white;
 
-}
-#mellomrom {
-	padding-bottom: 20px; 
-}
 .alt {
   display: flex;
   flex-wrap: wrap;
 }
 
-.sluttekst {
+ .sluttekst {
   width: 32%;
   flex-direction: row;
   padding: 5px;
   text-align: center;
   font-size: 12px;
+  order: 6;
 }
 
+footer {
+  background-color: #2b2a26;
+  padding: 10px;
+  text-align: left;
+  color: white;
+  order: 7;
 
-		
+}
+

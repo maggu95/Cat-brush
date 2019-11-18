@@ -18,75 +18,89 @@
 <body>
 
 <div class="container">
-  <ul class="nav nav-pills nav-justified" role="tablist">
-    <li class="active"><a href="index.html">Produkter</a></li>
-    <li><a href="about_us.html">Om oss</a></li>
-    <li><a href="index.html">Index</a></li>
-    <li><a href="reviews.html">Anmeldelser</a></li>        
-  </ul>
+      <img id="logo" src="../images/telemark_logo2.png" alt="Telemark">
+    <nav>
+      <ul class="nav nav-pills nav-justified" role="tablist">
+      <li class="active"><a href="produkt.html"> Produkt </a> </li>
+      <li><a href="about_us.html">info </a> </li>
+      <li><a href="index.html">Hjem</a></li>
+      <li><a href="reviews.html">Anmeldelser</a></li>  
+      </ul>  
+    </nav>   
 </div>
-
-<h1 id="skille"> Produkter - Ostehøvel sortemang </h1>
 
 <!--Dette er produktsiden til ostehøvel-->
 
-<div>
-	<table id="produkt">
-		<tr> 
-			<th> Produkt </th>
-			<th> Pris </th>
-			<th> Lager status</th>
-		</tr>
-		<tr>
-			<td>Telemark ostehøvel</td>
-			<td>300kr</td>
-			<td style="color:red">Utsolgt</td>  
-		</tr>
-		<tr>
-			<td>Nordagutu ostehøvel</td>
-			<td>279kr</td>
-			<td style="color:green">På lager</td>
-		</tr>
-		<tr>
-			<td>Grivi Ostehøvel</td> 
-			<td>250kr</td>
-			<td style="color:green">På lager</td>
-		</tr>
-		<tr>
-			<td>Sandvin Ostehøvel</td>
-			<td>279kr</td>
-			<td style="color: red;"> Utsolgt</td> 
-		</tr>
-	</table>
+<div class="blokk">
+ <img class="bilde" src="../images/bilde1.jpg" alt="bilde1">
+ <h1 class="text_blokk2"> Produkter - Ostehøvel sortemang </h1>
 </div>
 
-<img id="bilde" src="../images/bilde1.jpg" alt="bilde"/>
+<div class="katalog">
+  <div class="Telemark"> 
+  <img src="../images/telemark.jpg" alt="Telemark ostehøvel"> <h2> Telemark </h2>
+  <p> Dette er produktet hvor eventyret startet. Med å blande sammen telemarks skjønnhet og  norges nasjonalstolthet ble dette produktet født. Med stål fra Notodden og tre fra grenland har vi den eksklusive telemarks ostehøvel </p>
+</div>  
 
 <div class="Telemark"> 
-	<img src="../images/telemark.jpg" alt="telemarks ostehøvel"> 
-	 
-	<h2> Telemark </h2>
-	<p> Dette er produktet hvor eventyret startet. Med å blande sammen telemarks skjønnhet og  norges nasjonalstolthet ble dette produktet født. Med stål fra Notodden og tre fra grenland har vi den eksklusive telemarks ostehøvel </p>
-</div>	
-
-<div class="Telemark"> 
-	<img src="../images/nordagutu.jpg" alt="Nordagutu ostehøvel"> <h2> Nordagutu  </h2>
-	<p> Med denne ostehøvelen ville vi gi følelsen en får når man ankommer den flotte byen nordagutu. Den følelsen av eventyr i vente er det som møter deg, og derfor er det blir brukt metall til skjæring fra kullhuset og tre-skaftet er fra skogen i svanstul </p>
+  <img src="../images/nordagutu.jpg" alt="Nordagutu ostehøvel"> <h2> Nordagutu  </h2>
+  <p> Med denne ostehøvelen ville vi gi følelsen en får når man ankommer den flotte byen nordagutu. Den følelsen av eventyr i vente er det som møter deg, og derfor er det blir brukt metall til skjæring fra kullhuset og tre-skaftet er fra skogen i svanstul </p>
 </div>
 
 <div class="Telemark">
-	<img src="../images/grivi.jpg" alt="Grivi"> <h2> Grivi </h2>
-	<p> Denne ostehøvelen ble inspirert av den friske naturen rundt grivi. Med tre fra skogen med grivi og metallet fra gullbring er opplevelsen av grivi importert inn i høvelen </p> 
+  <img src="../images/grivi.jpg" alt="Grivi"> <h2> Grivi </h2>
+  <p id="grivi"> Denne ostehøvelen ble inspirert av den friske naturen rundt grivi. Med tre fra skogen med grivi og metallet fra gullbring er opplevelsen av grivi importert inn i høvelen </p> 
 </div>
 
 <div class="Telemark" >
-	<img src="../images/sandvin.jpg" alt="Sandvin"> <h2> Sandvin </h2>
-	<p>Sandvin er toppen av bø og er derfor topp kvalitet. Med metall fra trafikk skilt og tre fra sandvin fotballkubbhus</p>
+  <img id="sandvin" src="../images/sandvin.jpg" alt="Sandvin"> <h2> Sandvin </h2>
+  <p>Sandvin er toppen av bø og er derfor topp kvalitet. Med metall fra trafikk skilt og tre fra sandvin fotballkubbhus</p>
 </div>
+
+</div>
+<div>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Produkt</th>
+      <th scope="col">Pris</th>
+      <th scope="col">Lager</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      	<td>Telemark ostehøvel</td>
+		<td>300kr</td>
+		<td style="color:red">Utsolgt</td> 
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+		<td>Nordagutu ostehøvel</td>
+		<td>279kr</td>
+		<td style="color:green">På lager</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+		<td>Grivi Ostehøvel</td> 
+		<td>250kr</td>
+		<td style="color:green">På lager</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+        <td>Sandvin Ostehøvel</td>
+		<td>279kr</td>
+		<td style="color: red;"> Utsolgt</td> 
+    </tr>
+  </tbody>
+</table>
+
 
 
 <div>
-	<h3 id="mellomrom"> For bestilling ring: 923 65 457 </h3>
+	<h3> For bestilling/info ring: 923 65 457 </h3>
 </div>
 <footer>
 <div class="alt">
@@ -119,11 +133,10 @@
 
   <div class="sluttekst">
     Telemarks Ostehøvel har ikke ansvar for innhold på eksterne nettsider som det lenkes til. Kopiering av materiale fra Telemarks Ostehøvel for bruk annet sted er ikke tillatt uten avtale.
-  </div>
+</div>
 
 </div>
 </footer>
-
 </body>
 
 

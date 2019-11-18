@@ -1,87 +1,169 @@
-/* hovedside.css*/ 
-/* fonts 
 
-    font-family: 'Space Mono', monospace;
+.varhistorie{
+    display: grid;
+    grid-template-columns: 65% 35%;
+} 
 
-    font-family: 'Montserrat', sans-serif;
-
-*/
-
-
-	
-body { 
-    background: url(../images/cream_dust.png) repeat 0 0;
+.velkommen {
+    width: 100%; 
+    height: auto;
+    position: relative;
 }
 
-h1 {
-	font-family: 'Jomolhari', sans-serif;
-	font-size: 300%;
-	text-align: center; 
+.tekst {
+        
+    font-size: 150%;
+    padding-right: 40px;
+    padding-top: 50px;      
 
 }
-h2 { 
-  font-family: 'Jomolhari', monospace; 
-  font-size: 300%; 
-  text-align: left; 
- }
- #skille {
-  border-top: 10px groove dodgerblue;
-  margin: 10px;
-  padding: 10px;
+.overskrift { 
+    width: 75%;
+    padding-left: 40px;
+    font-family: 'Jomolhari', serif; 
+    font-size: 100px;
+    font-style: oblique;
+        
+}
+
+.produksjon {
+    width: 100%;
+    height: 550px;
+    
+}
+
+#velkommen { 
+    position: relative;
+    width: 100%; 
+    height: auto; 
+}
+    
+.blokk {
+    position: relative;
+    font-family: 'Jomolhari', serif;
+    font-size: 100%;
+}
+
+.text_blokk2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 300%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;  
+}
+
+.tall {
+    padding: 50px; 
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: #E5DBDB;
+    width: 100%;
+    font-family: 'Jomolhari', serif; 
+}
+
+h1,h3 { 
+    font-family: 'Dancing Script', cursive;
+    font-size: 500%;   
 
 }
 
-p {
-	font-family: 'Roboto', sans-serif; 
-
+h4 { 
+    font-size: 75px; 
+    font-family: 'Jomolhari', serif;
+    padding: 20x;
 }
-
-.flex-container {
-  display: flex;
-  height: auto;
-  align-items: center;
-  background-color: DodgerBlue;
-  width: auto;
-}
-
-.flex-container > div {
-  background-color: white;
-  width: 500px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-
-}
-
-
-img {
-	height: 20%;
-	width: 20% 
-
-}
-.mellomrom { 
-  padding-bottom: 20px;
- }
 
 footer {
-  background-color: #2b2a26;
-  padding: 10px;
-  text-align: left;
-  color: white;
+    background-color: #2b2a26;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    width: 100%;
 
 }
+
 .alt {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
 }
 
 .sluttekst {
-  width: 32%;
-  flex-direction: row;
-  padding: 5px;
-  text-align: center;
-  font-size: 12px;
+    width: 32%;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+  
 }
 
+#logo { 
+    padding-right: 20px; 
+}
 
+iframe { 
+    max-width: 100%; 
+    min-width: 80%;
+    max-height: 700px;
+    height: 500px;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    border: none;
+
+} 
+@media only screen and (max-width: 600px) {
+  /*For smart-phone:*/ 
+
+    #logo { 
+    position: relative;
+    top:0;
+    }
+
+    #velkommen {
+    width: 100%; 
+    height: 400px;
+    position: relative;
+    }
+
+    .varhistorie{
+    display: grid;
+    grid-template-columns: auto;
+    
+    }      
+
+    .varhistorie > div {
+        grid-column-start: 1; 
+        grid-column-end: 1;
+
+    }
+
+    iframe { 
+    max-height: 400px;
+    width: 100%;
+    position: relative;
+    
+
+    } 
+    
+    .tekst {     
+    font-size: 100%;
+    padding-top: 50px;
+    text-align: center;
+    grid-column-start: 1; 
+    grid-column-end: 3;
+    
+    }
+    
+    .fakta { 
+    display: grid;
+    grid-template-columns: 100%; 
+    }
+
+ }

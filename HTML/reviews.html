@@ -1,52 +1,90 @@
-<!DOCTYPE html>
-<html>
-<head>
-
+<!DOCTYPE html> 
+<html> 
+<head> 
+	    <!-- Required meta tags -->
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../CSS/reviews.css">
+
+
+    <!-- *************Bootstrap CSS********************************* -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- *********************************************************** -->
 
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="../CSS/reviews.css">
-<style >
-@import url('https://fonts.googleapis.com/css?family=Jomolhari|Roboto&display=swap');
-</style>
+    <!-- *****************Bootstrap links ******************** -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- *************************************************************** -->
 
-<title> Anmeldelser</title>
-
+	<Title>Anmeldelser </Title> 
 </head>
-<body>
+
+<!-- Her er selve dokumentet --> 
+<body> 
+<!-- Navigasjon --> 
 <div class="container">
-<h4> navigasjon  </h4>
-  <ul class="nav nav-pills nav-justified" role="tablist">
-    <li class="active"><a href="reviews.html">Anmeldelser</a></li>
-    <li><a href="about_us.html">Om oss</a></li>
-    <li><a href="produkt.html">produkt</a></li>
-    <li><a href="index.html">index</a></li>        
-  </ul>
+    <img id="logo" src="../images/telemark_logo2.png" alt="Telemark">
+    <nav>
+      <ul class="nav nav-pills nav-justified" role="tablist">
+      <li class="active"><a href="index.html"> hjem </a> </li>
+      <li><a href="about_us.html">info </a> </li>
+      <li><a href="produkt.html">Produkt</a></li>
+      <li><a href="reviews.html">Anmeldelser</a></li>  
+      </ul>  
+    </nav>   
 </div>
 
-<div class="intro">
-<h1> Anmeldelser </h1>
-<p> Her er andmeldelser fra andre som har prøvd produktet og er fornøyd!</p>
-</div>
-
-
+<!-- Her kommer hovedinnhold -->  
 <div class="grid-container">
-<div class="grid-item"> <img src="../images/obama.jpg" alt="obama"> <p> "Yes cheese can! -Obama" </p></div>
-<div class="grid-item"> <img src="../images/drake.jpg" alt="drake"> <p> "Started from the buttom now we cut cheese!" - Drake</p> </div>
+	<div class="overskrift"> <h1> Gi oss en tilbakemelding! </h1> </div>
+
+	<!-- Her kommer skjema --> 
+	<div class="skjema">
+	 <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    <p id="demo"></p>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Hvor fornøyd var du med produktet?</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Ikke fornøyd</option>
+      <option>Ikke som forventet</option>
+      <option>likegyldig</option>
+      <option>Fornøyd</option>
+      <option>Veldig fornøyd</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Eventuell kommentar</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <!-- Her skal javascript funksjonen legges i knapp -->
+  <button type="submit" class="btn btn-primary" onclick="varsel()">Send</button>
+</form> 
+    </div>
+
+<script>
+	function varsel() { 
+    var inObj = document.getElementById("exampleFormControlInput1");
+    if (!inObj.checkValidity()) {
+      document.getElementById("demo").innerHTML = input.validationMessage;
+    }
+    else {
+      alert("Tusen takk! Vi ser altid etter måter å forbedre oss");
+    }
+  }
 
 
+</script>
 </div>
-<div class="tekst">
-<p> Når Obamas besøk til Norge i 2014 tok sted var det en prioritet for han å gå innom oss i telemark Ostehøvel AS 
-Hvor han ble meget fornøyt med den revolusjonerende måten å spise ost på. Han kjøpte med seg 300stk på vei hjem til USA</p>
-<br> 
-<p> Drake var innom Norge for konsterter. Flere av hans venner hadde vert innom oss, og derfor var han veldig nysgjerrig om hva denne "oste høvelen" var. Han ble meget fornøyd, så fornøyd at denne oplevelsen inspirerte han til å skrive sangen: "Hotline-Bling</p> 
-</div>
-
 <footer>
+
+<!--Her kommer fotnoten --> 
 <div class="alt">
   <div class="sluttekst">
     Adm. direktør: Snorre Gonsholt
@@ -77,8 +115,10 @@ Hvor han ble meget fornøyt med den revolusjonerende måten å spise ost på. Ha
 
   <div class="sluttekst">
     Telemarks Ostehøvel har ikke ansvar for innhold på eksterne nettsider som det lenkes til. Kopiering av materiale fra Telemarks Ostehøvel for bruk annet sted er ikke tillatt uten avtale.
-  </div>
+</div>
 
 </div>
-</footer>
-</body> 
+</footer>	
+</body>
+
+</html> 
